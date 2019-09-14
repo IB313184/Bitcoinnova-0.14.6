@@ -60,7 +60,7 @@ wget https://raw.githubusercontent.com/turtlecoin/turtlecoin/development/LICENSE
 zip turtlecoin-dev-bin-$(date +%F)-linux.zip miner LICENSE zedwallet Bitcoinnovad turtle-service
 
 # Create directories to keep always-up-to-date binaries for 
-# TRTL Network files. Ideally, your bashrc has aliases to run
+# BTN Network files. Ideally, your bashrc has aliases to run
 # from this folder, or you can add it to your $PATH.
 mkdir -p ~/.Crypto/{Athena,Bitcoinnova,Karai}
 mkdir ~/Binaries

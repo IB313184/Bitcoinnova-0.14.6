@@ -1,7 +1,10 @@
-![image](http://pool.bitcoinn.biz/bitcoin-nova.png)
+![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
 
 #### Master Build Status
-[![Build Status](https://travis-ci.org/IB313184/bitcoinnova-0-14-6.svg?branch=master)](https://travis-ci.org/IB313184/bitcoinnova-0-14-6) [![Build status](https://ci.appveyor.com/api/projects/status/a87qocjbv9unvtmd/branch/master?svg=true)](https://ci.appveyor.com/project/IB313184/bitcoinnova-0-14-6/branch/master) [![Codefresh build status](https://g.codefresh.io/api/badges/pipeline/ib313184/IB313184%2FBitcoinnova-dev%2Fbitcoinnova-0-14-6?branch=master&key=eyJhbGciOiJIUzI1NiJ9.NWM5OGFiZGMwNzJlMmFhYzcwYzNhNjdl.JIEMTZguPPxrD4RzmqYrFq_Kk5Eblvdr8eGgk_WpUXo&type=cf-1)](https://g.codefresh.io/pipelines/bitcoinnova-0-14-6/builds?repoOwner=IB313184&repoName=Bitcoinnova-dev&serviceName=IB313184%2Fbitcoinnova-0-14-6&filter=trigger:build~Build;branch:master;pipeline:5c9936b724b8467c9034f151~Bitcoinnova-dev)
+[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=master)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=master&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
+
+#### Development Build Status
+[![Build Status](https://travis-ci.org/turtlecoin/turtlecoin.svg?branch=development)](https://travis-ci.org/turtlecoin/turtlecoin) [![Build status](https://ci.appveyor.com/api/projects/status/github/turtlecoin/turtlecoin?branch=development&svg=true)](https://ci.appveyor.com/project/RocksteadyTC/turtlecoin)
 
 ### Installing
 
