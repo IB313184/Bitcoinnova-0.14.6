@@ -57,7 +57,7 @@ ls -al
 # zip file just in case.
 echo -e "\n\n\n== COMPRESSING BINARIES"
 wget https://raw.githubusercontent.com/turtlecoin/turtlecoin/development/LICENSE
-zip turtlecoin-dev-bin-$(date +%F)-linux.zip miner LICENSE zedwallet Bitcoinnovad turtle-service
+zip turtlecoin-dev-bin-$(date +%F)-linux.zip miner LICENSE zedwallet Bitcoinnovad Bitcoinnova-service
 
 # Create directories to keep always-up-to-date binaries for 
 # BTN Network files. Ideally, your bashrc has aliases to run
@@ -74,11 +74,11 @@ cd ~/Binaries
 rm ~/.Crypto/Bitcoinnova/miner
 rm ~/.Crypto/Bitcoinnova/zedwallet
 rm ~/.Crypto/Bitcoinnova/Bitcoinnovad
-rm ~/.Crypto/Bitcoinnova/turtle-service
+rm ~/.Crypto/Bitcoinnova/Bitcoinnova-service
 cp miner ~/.Crypto/Bitcoinnova/miner
 cp zedwallet ~/.Crypto/Bitcoinnova/zedwallet
 cp Bitcoinnovad ~/.Crypto/Bitcoinnova/Bitcoinnovad
-cp Bitcoinnova-service ~/.Crypto/Bitcoinnova/turtle-service
+cp Bitcoinnova-service ~/.Crypto/Bitcoinnova/Bitcoinnova-service
 
 
 
