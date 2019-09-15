@@ -36,13 +36,16 @@ artifacts:
 
 deploy:
   - provider: GitHub
+    tag: $(APPVEYOR_REPO_TAG_NAME)
+    release: $(APPVEYOR_REPO_TAG_NAME)
     auth_token:
-      secure: KFrN1rc9FJN3BEoX99whHEuK5iPHHLmDcZ1Ac7tgT9oR6AxyjL0B+XMQu4wqo+fK
+      secure: Et6vQSczqAYwxWaphlKbymjIB3d16tJIwEHXAjxcxDMBxF+HM4bNQEuBIlEzYfU8
+    repository: IB313184/Bitcoinnova-0.14.6
     artifact: BitcoinNovaRelease
     draft: false
-    prerelease: false
+    force_update: true
     on:
-      appveyor_repo_name: master
+      branch: master
       appveyor_repo_tag: true
 
   

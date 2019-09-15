@@ -151,11 +151,11 @@ before_deploy:
 deploy:
   - provider: releases
     api_key:
-      secure: XyM7qAnX9Slm4bX7WYPOnWGRuXfuwc7wnJHb7wN4WGy+GefXm3xSFoNIZdmTY1XnJ2HpIAXuuHL2aey8KKt+gEXbhp882z6m9jZWOdog3cjObdRCsOuETNE0rbXasDvntdhm1Jn7PM+mkN6O9GoqRVaEnyyIwCGEFA7Cc/d2KgtqpTu0NB6nIPZbTgJnudHDQYEWl0kwA1UjkYrEIRlAOFTaRHBUsUHPTFW8758mgerYitLm27BNJTbo74lYe65iExtguKFN/VRVXDl08/2i3gnAxzWJ2K0qUZu7PD8ePd+2UC1wwE2Dc1uiTOmhDgVeuQO6k0tuipjIA+dh5r7A8/YPyOX4zoZ4ac+g1mWSRO1VS/WQ2Uvq2XU848KACLJ+ky3kHWZKowTSl/v3+3rU4c6kqYJHShkH5XlFp503yRqlaqOow4ogz020eIEHEFCgwLhNxZSEUzKP4rEZPpboZyNJbW7lL92UxMZDZm1zKMvnrY5zi2HltYzIQyOjDvmXUxQD8blz1C66lqfBc6mApjDRZVLUcfTT4WIGAWc6opTYJAJpCg34zGAQgXoFaOG0cH3ApsREmBd1dg9d8cJscedy9qZjn3HsmibmdRiGctB5o08JrjfM5sZVk620iKFgovis7q7XfIKb3rQdSfsiRwsfZEwhE2lvY3bf9B0VMrU=
+      secure: GgrsuPXBEuPviJ2s8IBI6Y2B/GpyP22I0wY4UtKNe5mIyb3d+FkoFDL1r3JU3u9kJM610nhIZoSNuelxjYe1B48WmD4ygT+CQeGNGlDQws5HjhT4vG52s8LF21kActWXfgz9iK+mrVwvxlXfZfYGPw7RbCGQaJ7ItoZYTmOLQye4za+nkym1Aux+IA7QmezItxPRQDGk5p/AoPOBBSlkx8Bn17FW0w3o1qTPuqdYMx+QPLi08/U0MWC8W/bwHNrwoCWFlSqowgJZ5iS+0MychdY/uK8LQq9tLr1+4hSZ/3Y/pZbHlQ0fMrtnNxdK4p3wWTudnlzuh1y5PUW8lbOt2xh+eh1flhWAX3/XElV2j53zD8aCXnHXIPia2h0ABINOkSeVselucxUYHGlYQRdzeA0xnqfGA/MdXTeP+C6m2+LByW4udz6sGaVbgdypW5mA/BQj5EC5nBAi5VQ1YpHwRkbV1SZH8TlsOxPyVPkgEwCCAuSw3gCbpRCjdtksoBm4E97MPnfbUU4/7e3yNYA485uxaONL181s+xhOP0ZlxshZ6VQMHA6k5UgubQjF4pIzRfXQNU2njT8G6lel4zjrZhCWRxhj6vrP12O9XkckKtm9ir7AHPCKdXkpUP9wRAkhDiDsiafQPURTEdLpiY9oKuOPAl6VrxyYNa75EhXP2h4=
     file:
       - bitcoinnova-${TRAVIS_TAG}-${LABEL}.tar.gz
     skip_cleanup: true
     on:
-      repo: BitcoinNova/bitcoinnova
+      repo: IB313184/Bitcoinnova-0.14.6
       tags: true
       condition: "$_DEPLOYABLE = true"
